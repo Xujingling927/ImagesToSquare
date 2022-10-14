@@ -23,4 +23,5 @@ def main(dir):
     result.show()
 
 if __name__ == '__main__':
-    main('/Users/xujingling/Downloads/LM')
+    dir = '/Users/xujingling/Downloads/LM'
+    main(dir)
