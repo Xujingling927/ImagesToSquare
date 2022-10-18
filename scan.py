@@ -4,6 +4,7 @@ from os import listdir
 from PIL import Image
 
 def scan_dir(dir):
+    
     #获取文件夹内所有图片
     image_list = []
     for file_name in listdir(dir):
